@@ -19,6 +19,131 @@
 		AB7061B817027E0C001CFD9F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7061B617027E0C001CFD9F /* MainStoryboard_iPhone.storyboard */; };
 		AB7061BB17027E0C001CFD9F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7061B917027E0C001CFD9F /* MainStoryboard_iPad.storyboard */; };
 		AB7061BE17027E0C001CFD9F /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7061BD17027E0C001CFD9F /* SSViewController.m */; };
+		ABBC80D2170B45B800572304 /* 37x-Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBC80D1170B45B800572304 /* 37x-Checkmark@2x.png */; };
+		ABBC80D3170B461C00572304 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBC80D0170B44A400572304 /* MBProgressHUD.m */; };
+		ABBC80DE170B4C7500572304 /* empty-star-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBC80DB170B4C7500572304 /* empty-star-icon@2x.png */; };
+		ABBC80DF170B4C7500572304 /* filled-star-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBC80DC170B4C7500572304 /* filled-star-icon@2x.png */; };
+		ABBC80E0170B4C7500572304 /* google-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBC80DD170B4C7500572304 /* google-icon@2x.png */; };
+		ABBC80E4170BEFC500572304 /* navigationbar.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBC80E3170BEFC500572304 /* navigationbar.png */; };
+		ABBC80E6170BF08600572304 /* tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBC80E5170BF08600572304 /* tabbar.png */; };
+		ABBC80E8170CA22D00572304 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBC80E7170CA22C00572304 /* placeholder.png */; };
+		ABEB68741708F25B00A74A24 /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68731708F25B00A74A24 /* photo-frame.png */; };
+		ABEB68771708F43000A74A24 /* escheresque_ste_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68751708F43000A74A24 /* escheresque_ste_@2X.png */; };
+		ABEB68781708F43000A74A24 /* escheresque_ste.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68761708F43000A74A24 /* escheresque_ste.png */; };
+		ABEB687B1708F99600A74A24 /* Sushi.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEB687A1708F99600A74A24 /* Sushi.m */; };
+		ABEB68C317091FC100A74A24 /* wide-photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68C117091FC000A74A24 /* wide-photo-frame.png */; };
+		ABEB68C417091FC100A74A24 /* wide-photo-frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68C217091FC000A74A24 /* wide-photo-frame@2x.png */; };
+		ABEB68C717091FF500A74A24 /* SSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEB68C617091FF400A74A24 /* SSDetailViewController.m */; };
+		ABEB68CE1709322900A74A24 /* arches_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68CC1709322800A74A24 /* arches_@2X.png */; };
+		ABEB68CF1709322900A74A24 /* arches.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68CD1709322900A74A24 /* arches.png */; };
+		ABEB68D117095CEB00A74A24 /* Sushi.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68D017095CEA00A74A24 /* Sushi.plist */; };
+		ABEB693717095D0300A74A24 /* aji-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68D217095D0300A74A24 /* aji-sushi-205.jpg */; };
+		ABEB693817095D0300A74A24 /* akagai-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68D317095D0300A74A24 /* akagai-sushi-205.jpg */; };
+		ABEB693917095D0300A74A24 /* Akami-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68D417095D0300A74A24 /* Akami-sushi-205.jpg */; };
+		ABEB693A17095D0300A74A24 /* amaebi-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68D517095D0300A74A24 /* amaebi-sushi-205.jpg */; };
+		ABEB693B17095D0300A74A24 /* Anago-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68D617095D0300A74A24 /* Anago-sushi-205.jpg */; };
+		ABEB693C17095D0300A74A24 /* Ankimo-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68D717095D0300A74A24 /* Ankimo-205.jpg */; };
+		ABEB693D17095D0300A74A24 /* aoyagi-clam-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68D817095D0300A74A24 /* aoyagi-clam-205.jpg */; };
+		ABEB693E17095D0300A74A24 /* Avocado-Maki-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68D917095D0300A74A24 /* Avocado-Maki-205.jpg */; };
+		ABEB693F17095D0300A74A24 /* Awabi-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68DA17095D0300A74A24 /* Awabi-sushi-205.jpg */; };
+		ABEB694017095D0300A74A24 /* ayu-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68DB17095D0300A74A24 /* ayu-sushi-205.jpg */; };
+		ABEB694117095D0300A74A24 /* battera-zushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68DC17095D0300A74A24 /* battera-zushi-205.jpg */; };
+		ABEB694217095D0300A74A24 /* Buri-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68DD17095D0300A74A24 /* Buri-sushi-205.jpg */; };
+		ABEB694317095D0300A74A24 /* california-roll-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68DE17095D0300A74A24 /* california-roll-sushi-205.jpg */; };
+		ABEB694417095D0300A74A24 /* chirashi-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68DF17095D0300A74A24 /* chirashi-sushi-205.jpg */; };
+		ABEB694517095D0300A74A24 /* Chutoro-takaokun-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68E017095D0300A74A24 /* Chutoro-takaokun-205.jpg */; };
+		ABEB694617095D0300A74A24 /* daikon-oshinko-maki-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68E117095D0300A74A24 /* daikon-oshinko-maki-sushi-205.jpg */; };
+		ABEB694717095D0300A74A24 /* ebi-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68E217095D0300A74A24 /* ebi-sushi-205.jpg */; };
+		ABEB694817095D0300A74A24 /* Engawa-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68E317095D0300A74A24 /* Engawa-205.jpg */; };
+		ABEB694917095D0300A74A24 /* funazushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68E417095D0300A74A24 /* funazushi-205.jpg */; };
+		ABEB694A17095D0300A74A24 /* futomaki-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68E517095D0300A74A24 /* futomaki-sushi-205.jpg */; };
+		ABEB694B17095D0300A74A24 /* Gindara-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68E617095D0300A74A24 /* Gindara-sushi-205.jpg */; };
+		ABEB694C17095D0300A74A24 /* Gunkanmaki-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68E717095D0300A74A24 /* Gunkanmaki-sushi-205.jpg */; };
+		ABEB694D17095D0300A74A24 /* gyu-Nigiri-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68E817095D0300A74A24 /* gyu-Nigiri-sushi-205.jpg */; };
+		ABEB694E17095D0300A74A24 /* Hamachi-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68E917095D0300A74A24 /* Hamachi-sushi-205.jpg */; };
+		ABEB694F17095D0300A74A24 /* Hamaguri-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68EA17095D0300A74A24 /* Hamaguri-sushi-205.jpg */; };
+		ABEB695017095D0300A74A24 /* Hamo-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68EB17095D0300A74A24 /* Hamo-sushi-205.jpg */; };
+		ABEB695117095D0300A74A24 /* Hatahata-zushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68EC17095D0300A74A24 /* Hatahata-zushi-205.jpg */; };
+		ABEB695217095D0300A74A24 /* Hiramasa-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68ED17095D0300A74A24 /* Hiramasa-sushi-205.jpg */; };
+		ABEB695317095D0300A74A24 /* Hirame-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68EE17095D0300A74A24 /* Hirame-sushi-205.jpg */; };
+		ABEB695417095D0300A74A24 /* Hokkigai-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68EF17095D0300A74A24 /* Hokkigai-sushi-205.jpg */; };
+		ABEB695517095D0300A74A24 /* Hotate-nigiri-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68F017095D0300A74A24 /* Hotate-nigiri-sushi-205.jpg */; };
+		ABEB695617095D0300A74A24 /* ika-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68F117095D0300A74A24 /* ika-sushi-205.jpg */; };
+		ABEB695717095D0300A74A24 /* Ikura-maki-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68F217095D0300A74A24 /* Ikura-maki-205.jpg */; };
+		ABEB695817095D0300A74A24 /* Inarizushi-photo-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68F317095D0300A74A24 /* Inarizushi-photo-205.jpg */; };
+		ABEB695917095D0300A74A24 /* Isaki-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68F417095D0300A74A24 /* Isaki-sushi-205.jpg */; };
+		ABEB695A17095D0300A74A24 /* Iseebi-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68F517095D0300A74A24 /* Iseebi-sushi-205.jpg */; };
+		ABEB695B17095D0300A74A24 /* Iwashi-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68F617095D0300A74A24 /* Iwashi-sushi-205.jpg */; };
+		ABEB695C17095D0300A74A24 /* kamaboko-kani-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68F717095D0300A74A24 /* kamaboko-kani-205.jpg */; };
+		ABEB695D17095D0300A74A24 /* kani-zushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68F817095D0300A74A24 /* kani-zushi-205.jpg */; };
+		ABEB695E17095D0300A74A24 /* kanpyo-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68F917095D0300A74A24 /* kanpyo-sushi-205.jpg */; };
+		ABEB695F17095D0300A74A24 /* kappa-maki-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68FA17095D0300A74A24 /* kappa-maki-sushi-205.jpg */; };
+		ABEB696017095D0300A74A24 /* Karei-nigiri-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68FB17095D0300A74A24 /* Karei-nigiri-sushi-205.jpg */; };
+		ABEB696117095D0300A74A24 /* Katsuo-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68FC17095D0300A74A24 /* Katsuo-sushi-205.jpg */; };
+		ABEB696217095D0300A74A24 /* Kazunoko-Sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68FD17095D0300A74A24 /* Kazunoko-Sushi-205.jpg */; };
+		ABEB696317095D0300A74A24 /* Kibinago-Nigiri-Sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68FE17095D0300A74A24 /* Kibinago-Nigiri-Sushi-205.jpg */; };
+		ABEB696417095D0300A74A24 /* Kimmedai-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB68FF17095D0300A74A24 /* Kimmedai-sushi-205.jpg */; };
+		ABEB696517095D0300A74A24 /* Kisu-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB690017095D0300A74A24 /* Kisu-sushi-205.jpg */; };
+		ABEB696617095D0300A74A24 /* Kohada-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB690117095D0300A74A24 /* Kohada-sushi-205.jpg */; };
+		ABEB696717095D0300A74A24 /* Kurodai-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB690217095D0300A74A24 /* Kurodai-sushi-205.jpg */; };
+		ABEB696817095D0300A74A24 /* Kuruma-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB690317095D0300A74A24 /* Kuruma-sushi-205.jpg */; };
+		ABEB696917095D0300A74A24 /* Madai-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB690417095D0300A74A24 /* Madai-sushi-205.jpg */; };
+		ABEB696A17095D0300A74A24 /* maguro-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB690517095D0300A74A24 /* maguro-sushi-205.jpg */; };
+		ABEB696B17095D0300A74A24 /* Mamakari-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB690617095D0300A74A24 /* Mamakari-sushi-205.jpg */; };
+		ABEB696C17095D0300A74A24 /* Masago-Sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB690717095D0300A74A24 /* Masago-Sushi-205.jpg */; };
+		ABEB696D17095D0300A74A24 /* Masu-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB690817095D0300A74A24 /* Masu-sushi-205.jpg */; };
+		ABEB696E17095D0300A74A24 /* Mategai-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB690917095D0300A74A24 /* Mategai-sushi-205.jpg */; };
+		ABEB696F17095D0300A74A24 /* Matsubagani-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB690A17095D0300A74A24 /* Matsubagani-sushi-205.jpg */; };
+		ABEB697017095D0300A74A24 /* mehari-zushi-takana-leaf-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB690B17095D0300A74A24 /* mehari-zushi-takana-leaf-205.jpg */; };
+		ABEB697117095D0300A74A24 /* Mentaiko-Sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB690C17095D0300A74A24 /* Mentaiko-Sushi-205.jpg */; };
+		ABEB697217095D0300A74A24 /* Mirugai-Giant-Clam-Sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB690D17095D0300A74A24 /* Mirugai-Giant-Clam-Sushi-205.jpg */; };
+		ABEB697317095D0300A74A24 /* Mirugai-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB690E17095D0300A74A24 /* Mirugai-sushi-205.jpg */; };
+		ABEB697417095D0300A74A24 /* Namako-Sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB690F17095D0300A74A24 /* Namako-Sushi-205.jpg */; };
+		ABEB697517095D0300A74A24 /* Namera-Nigiri-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB691017095D0300A74A24 /* Namera-Nigiri-sushi-205.jpg */; };
+		ABEB697617095D0300A74A24 /* Natto-Sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB691117095D0300A74A24 /* Natto-Sushi-205.jpg */; };
+		ABEB697717095D0300A74A24 /* Negitoro-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB691217095D0300A74A24 /* Negitoro-sushi-205.jpg */; };
+		ABEB697817095D0300A74A24 /* Noresore-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB691317095D0300A74A24 /* Noresore-sushi-205.jpg */; };
+		ABEB697917095D0300A74A24 /* Ohyou-Nigiri-Halibut-Sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB691417095D0300A74A24 /* Ohyou-Nigiri-Halibut-Sushi-205.jpg */; };
+		ABEB697A17095D0300A74A24 /* Oshizushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB691517095D0300A74A24 /* Oshizushi-205.jpg */; };
+		ABEB697B17095D0300A74A24 /* saba-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB691617095D0300A74A24 /* saba-sushi-205.jpg */; };
+		ABEB697C17095D0300A74A24 /* sake-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB691717095D0300A74A24 /* sake-sushi-205.jpg */; };
+		ABEB697D17095D0400A74A24 /* sakura-niku-sushi-raw-horse-meat-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB691817095D0300A74A24 /* sakura-niku-sushi-raw-horse-meat-205.jpg */; };
+		ABEB697E17095D0400A74A24 /* Sanma-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB691917095D0300A74A24 /* Sanma-sushi-205.jpg */; };
+		ABEB697F17095D0400A74A24 /* Sasamaki-bamboo-leaf-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB691A17095D0300A74A24 /* Sasamaki-bamboo-leaf-sushi-205.jpg */; };
+		ABEB698017095D0400A74A24 /* Sawara-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB691B17095D0300A74A24 /* Sawara-sushi-205.jpg */; };
+		ABEB698117095D0400A74A24 /* Sayori-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB691C17095D0300A74A24 /* Sayori-sushi-205.jpg */; };
+		ABEB698217095D0400A74A24 /* Sea-Eel-and-Cucumber-Roll-Anakyu-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB691D17095D0300A74A24 /* Sea-Eel-and-Cucumber-Roll-Anakyu-205.jpg */; };
+		ABEB698317095D0400A74A24 /* shako-nigiri-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB691E17095D0300A74A24 /* shako-nigiri-sushi-205.jpg */; };
+		ABEB698417095D0400A74A24 /* Shime-saba-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB691F17095D0300A74A24 /* Shime-saba-205.jpg */; };
+		ABEB698517095D0400A74A24 /* shirasu-maki-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB692017095D0300A74A24 /* shirasu-maki-sushi-205.jpg */; };
+		ABEB698617095D0400A74A24 /* Shiro-maguro-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB692117095D0300A74A24 /* Shiro-maguro-205.jpg */; };
+		ABEB698717095D0400A74A24 /* Shiroebi-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB692217095D0300A74A24 /* Shiroebi-sushi-205.jpg */; };
+		ABEB698817095D0400A74A24 /* Spicy-Tuna-Roll-Western-Sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB692317095D0300A74A24 /* Spicy-Tuna-Roll-Western-Sushi-205.jpg */; };
+		ABEB698917095D0400A74A24 /* Suzuki-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB692417095D0300A74A24 /* Suzuki-sushi-205.jpg */; };
+		ABEB698A17095D0400A74A24 /* Tai-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB692517095D0300A74A24 /* Tai-sushi-205.jpg */; };
+		ABEB698B17095D0400A74A24 /* Tairagai-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB692617095D0300A74A24 /* Tairagai-sushi-205.jpg */; };
+		ABEB698C17095D0400A74A24 /* tako-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB692717095D0300A74A24 /* tako-sushi-205.jpg */; };
+		ABEB698D17095D0400A74A24 /* Tamagoyaki-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB692817095D0300A74A24 /* Tamagoyaki-sushi-205.jpg */; };
+		ABEB698E17095D0400A74A24 /* Tekkamaki-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB692917095D0300A74A24 /* Tekkamaki-205.jpg */; };
+		ABEB698F17095D0400A74A24 /* temaki-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB692A17095D0300A74A24 /* temaki-205.jpg */; };
+		ABEB699017095D0400A74A24 /* Temarizushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB692B17095D0300A74A24 /* Temarizushi-205.jpg */; };
+		ABEB699117095D0400A74A24 /* tobiko-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB692C17095D0300A74A24 /* tobiko-sushi-205.jpg */; };
+		ABEB699217095D0400A74A24 /* Torigai-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB692D17095D0300A74A24 /* Torigai-sushi-205.jpg */; };
+		ABEB699317095D0400A74A24 /* Toro-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB692E17095D0300A74A24 /* Toro-sushi-205.jpg */; };
+		ABEB699417095D0400A74A24 /* Tsubugai-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB692F17095D0300A74A24 /* Tsubugai-sushi-205.jpg */; };
+		ABEB699517095D0400A74A24 /* tsunamayo-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB693017095D0300A74A24 /* tsunamayo-205.jpg */; };
+		ABEB699617095D0400A74A24 /* umeboshi-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB693117095D0300A74A24 /* umeboshi-sushi-205.jpg */; };
+		ABEB699717095D0400A74A24 /* Umekyu-cucumber-and-pickled-japanese-plum-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB693217095D0300A74A24 /* Umekyu-cucumber-and-pickled-japanese-plum-205.jpg */; };
+		ABEB699817095D0400A74A24 /* unagi-sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB693317095D0300A74A24 /* unagi-sushi-205.jpg */; };
+		ABEB699917095D0400A74A24 /* Uni-Sushi-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB693417095D0300A74A24 /* Uni-Sushi-205.jpg */; };
+		ABEB699A17095D0400A74A24 /* uramaki-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB693517095D0300A74A24 /* uramaki-205.jpg */; };
+		ABEB699B17095D0400A74A24 /* yuba-maki-instead-of-nori-tofu-skin-is-used-205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABEB693617095D0300A74A24 /* yuba-maki-instead-of-nori-tofu-skin-is-used-205.jpg */; };
+		ABEB699F1709F7E500A74A24 /* SSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEB699E1709F7E500A74A24 /* SSWebViewController.m */; };
+		ABEB69B0170A26FA00A74A24 /* SSFavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEB69AF170A26FA00A74A24 /* SSFavViewController.m */; };
+		ABEB69B2170A54F700A74A24 /* sushi-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEB69B1170A54F700A74A24 /* sushi-icon@2x.png */; };
+		ABEB69B4170A554B00A74A24 /* star-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEB69B3170A554B00A74A24 /* star-icon@2x.png */; };
+		ABEB69B8170A568300A74A24 /* about-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEB69B6170A568200A74A24 /* about-icon@2x.png */; };
+		ABEB69BA170A570200A74A24 /* info-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEB69B9170A570200A74A24 /* info-icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +164,136 @@
 		AB7061BA17027E0C001CFD9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		AB7061BC17027E0C001CFD9F /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
 		AB7061BD17027E0C001CFD9F /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
+		ABBC80CF170B44A400572304 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		ABBC80D0170B44A400572304 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		ABBC80D1170B45B800572304 /* 37x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark@2x.png"; sourceTree = "<group>"; };
+		ABBC80DB170B4C7500572304 /* empty-star-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty-star-icon@2x.png"; sourceTree = "<group>"; };
+		ABBC80DC170B4C7500572304 /* filled-star-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "filled-star-icon@2x.png"; sourceTree = "<group>"; };
+		ABBC80DD170B4C7500572304 /* google-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-icon@2x.png"; sourceTree = "<group>"; };
+		ABBC80E3170BEFC500572304 /* navigationbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationbar.png; sourceTree = "<group>"; };
+		ABBC80E5170BF08600572304 /* tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar.png; sourceTree = "<group>"; };
+		ABBC80E7170CA22C00572304 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		ABEB68731708F25B00A74A24 /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame.png"; sourceTree = "<group>"; };
+		ABEB68751708F43000A74A24 /* escheresque_ste_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "escheresque_ste_@2X.png"; sourceTree = "<group>"; };
+		ABEB68761708F43000A74A24 /* escheresque_ste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = escheresque_ste.png; sourceTree = "<group>"; };
+		ABEB68791708F99600A74A24 /* Sushi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sushi.h; sourceTree = "<group>"; };
+		ABEB687A1708F99600A74A24 /* Sushi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sushi.m; sourceTree = "<group>"; };
+		ABEB68C117091FC000A74A24 /* wide-photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wide-photo-frame.png"; sourceTree = "<group>"; };
+		ABEB68C217091FC000A74A24 /* wide-photo-frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wide-photo-frame@2x.png"; sourceTree = "<group>"; };
+		ABEB68C517091FF400A74A24 /* SSDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDetailViewController.h; sourceTree = "<group>"; };
+		ABEB68C617091FF400A74A24 /* SSDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDetailViewController.m; sourceTree = "<group>"; };
+		ABEB68CC1709322800A74A24 /* arches_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arches_@2X.png"; sourceTree = "<group>"; };
+		ABEB68CD1709322900A74A24 /* arches.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arches.png; sourceTree = "<group>"; };
+		ABEB68D017095CEA00A74A24 /* Sushi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sushi.plist; sourceTree = SOURCE_ROOT; };
+		ABEB68D217095D0300A74A24 /* aji-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "aji-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68D317095D0300A74A24 /* akagai-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "akagai-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68D417095D0300A74A24 /* Akami-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Akami-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68D517095D0300A74A24 /* amaebi-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "amaebi-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68D617095D0300A74A24 /* Anago-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anago-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68D717095D0300A74A24 /* Ankimo-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ankimo-205.jpg"; sourceTree = "<group>"; };
+		ABEB68D817095D0300A74A24 /* aoyagi-clam-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "aoyagi-clam-205.jpg"; sourceTree = "<group>"; };
+		ABEB68D917095D0300A74A24 /* Avocado-Maki-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Avocado-Maki-205.jpg"; sourceTree = "<group>"; };
+		ABEB68DA17095D0300A74A24 /* Awabi-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Awabi-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68DB17095D0300A74A24 /* ayu-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ayu-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68DC17095D0300A74A24 /* battera-zushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "battera-zushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68DD17095D0300A74A24 /* Buri-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Buri-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68DE17095D0300A74A24 /* california-roll-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "california-roll-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68DF17095D0300A74A24 /* chirashi-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chirashi-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68E017095D0300A74A24 /* Chutoro-takaokun-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chutoro-takaokun-205.jpg"; sourceTree = "<group>"; };
+		ABEB68E117095D0300A74A24 /* daikon-oshinko-maki-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "daikon-oshinko-maki-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68E217095D0300A74A24 /* ebi-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ebi-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68E317095D0300A74A24 /* Engawa-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Engawa-205.jpg"; sourceTree = "<group>"; };
+		ABEB68E417095D0300A74A24 /* funazushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "funazushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68E517095D0300A74A24 /* futomaki-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "futomaki-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68E617095D0300A74A24 /* Gindara-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gindara-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68E717095D0300A74A24 /* Gunkanmaki-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gunkanmaki-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68E817095D0300A74A24 /* gyu-Nigiri-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gyu-Nigiri-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68E917095D0300A74A24 /* Hamachi-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hamachi-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68EA17095D0300A74A24 /* Hamaguri-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hamaguri-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68EB17095D0300A74A24 /* Hamo-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hamo-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68EC17095D0300A74A24 /* Hatahata-zushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hatahata-zushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68ED17095D0300A74A24 /* Hiramasa-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hiramasa-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68EE17095D0300A74A24 /* Hirame-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hirame-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68EF17095D0300A74A24 /* Hokkigai-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hokkigai-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68F017095D0300A74A24 /* Hotate-nigiri-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hotate-nigiri-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68F117095D0300A74A24 /* ika-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ika-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68F217095D0300A74A24 /* Ikura-maki-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ikura-maki-205.jpg"; sourceTree = "<group>"; };
+		ABEB68F317095D0300A74A24 /* Inarizushi-photo-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Inarizushi-photo-205.jpg"; sourceTree = "<group>"; };
+		ABEB68F417095D0300A74A24 /* Isaki-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Isaki-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68F517095D0300A74A24 /* Iseebi-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Iseebi-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68F617095D0300A74A24 /* Iwashi-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Iwashi-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68F717095D0300A74A24 /* kamaboko-kani-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kamaboko-kani-205.jpg"; sourceTree = "<group>"; };
+		ABEB68F817095D0300A74A24 /* kani-zushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kani-zushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68F917095D0300A74A24 /* kanpyo-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kanpyo-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68FA17095D0300A74A24 /* kappa-maki-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kappa-maki-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68FB17095D0300A74A24 /* Karei-nigiri-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Karei-nigiri-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68FC17095D0300A74A24 /* Katsuo-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Katsuo-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68FD17095D0300A74A24 /* Kazunoko-Sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kazunoko-Sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68FE17095D0300A74A24 /* Kibinago-Nigiri-Sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kibinago-Nigiri-Sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB68FF17095D0300A74A24 /* Kimmedai-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kimmedai-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB690017095D0300A74A24 /* Kisu-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kisu-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB690117095D0300A74A24 /* Kohada-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kohada-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB690217095D0300A74A24 /* Kurodai-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kurodai-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB690317095D0300A74A24 /* Kuruma-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kuruma-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB690417095D0300A74A24 /* Madai-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Madai-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB690517095D0300A74A24 /* maguro-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "maguro-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB690617095D0300A74A24 /* Mamakari-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mamakari-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB690717095D0300A74A24 /* Masago-Sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Masago-Sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB690817095D0300A74A24 /* Masu-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Masu-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB690917095D0300A74A24 /* Mategai-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mategai-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB690A17095D0300A74A24 /* Matsubagani-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Matsubagani-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB690B17095D0300A74A24 /* mehari-zushi-takana-leaf-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mehari-zushi-takana-leaf-205.jpg"; sourceTree = "<group>"; };
+		ABEB690C17095D0300A74A24 /* Mentaiko-Sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mentaiko-Sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB690D17095D0300A74A24 /* Mirugai-Giant-Clam-Sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mirugai-Giant-Clam-Sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB690E17095D0300A74A24 /* Mirugai-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mirugai-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB690F17095D0300A74A24 /* Namako-Sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Namako-Sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB691017095D0300A74A24 /* Namera-Nigiri-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Namera-Nigiri-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB691117095D0300A74A24 /* Natto-Sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Natto-Sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB691217095D0300A74A24 /* Negitoro-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Negitoro-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB691317095D0300A74A24 /* Noresore-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Noresore-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB691417095D0300A74A24 /* Ohyou-Nigiri-Halibut-Sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ohyou-Nigiri-Halibut-Sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB691517095D0300A74A24 /* Oshizushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Oshizushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB691617095D0300A74A24 /* saba-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saba-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB691717095D0300A74A24 /* sake-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sake-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB691817095D0300A74A24 /* sakura-niku-sushi-raw-horse-meat-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sakura-niku-sushi-raw-horse-meat-205.jpg"; sourceTree = "<group>"; };
+		ABEB691917095D0300A74A24 /* Sanma-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sanma-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB691A17095D0300A74A24 /* Sasamaki-bamboo-leaf-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sasamaki-bamboo-leaf-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB691B17095D0300A74A24 /* Sawara-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sawara-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB691C17095D0300A74A24 /* Sayori-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sayori-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB691D17095D0300A74A24 /* Sea-Eel-and-Cucumber-Roll-Anakyu-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sea-Eel-and-Cucumber-Roll-Anakyu-205.jpg"; sourceTree = "<group>"; };
+		ABEB691E17095D0300A74A24 /* shako-nigiri-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shako-nigiri-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB691F17095D0300A74A24 /* Shime-saba-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shime-saba-205.jpg"; sourceTree = "<group>"; };
+		ABEB692017095D0300A74A24 /* shirasu-maki-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shirasu-maki-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB692117095D0300A74A24 /* Shiro-maguro-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shiro-maguro-205.jpg"; sourceTree = "<group>"; };
+		ABEB692217095D0300A74A24 /* Shiroebi-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shiroebi-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB692317095D0300A74A24 /* Spicy-Tuna-Roll-Western-Sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spicy-Tuna-Roll-Western-Sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB692417095D0300A74A24 /* Suzuki-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Suzuki-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB692517095D0300A74A24 /* Tai-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tai-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB692617095D0300A74A24 /* Tairagai-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tairagai-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB692717095D0300A74A24 /* tako-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tako-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB692817095D0300A74A24 /* Tamagoyaki-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tamagoyaki-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB692917095D0300A74A24 /* Tekkamaki-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tekkamaki-205.jpg"; sourceTree = "<group>"; };
+		ABEB692A17095D0300A74A24 /* temaki-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "temaki-205.jpg"; sourceTree = "<group>"; };
+		ABEB692B17095D0300A74A24 /* Temarizushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Temarizushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB692C17095D0300A74A24 /* tobiko-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tobiko-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB692D17095D0300A74A24 /* Torigai-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Torigai-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB692E17095D0300A74A24 /* Toro-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Toro-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB692F17095D0300A74A24 /* Tsubugai-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tsubugai-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB693017095D0300A74A24 /* tsunamayo-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tsunamayo-205.jpg"; sourceTree = "<group>"; };
+		ABEB693117095D0300A74A24 /* umeboshi-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "umeboshi-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB693217095D0300A74A24 /* Umekyu-cucumber-and-pickled-japanese-plum-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Umekyu-cucumber-and-pickled-japanese-plum-205.jpg"; sourceTree = "<group>"; };
+		ABEB693317095D0300A74A24 /* unagi-sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "unagi-sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB693417095D0300A74A24 /* Uni-Sushi-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Uni-Sushi-205.jpg"; sourceTree = "<group>"; };
+		ABEB693517095D0300A74A24 /* uramaki-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "uramaki-205.jpg"; sourceTree = "<group>"; };
+		ABEB693617095D0300A74A24 /* yuba-maki-instead-of-nori-tofu-skin-is-used-205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "yuba-maki-instead-of-nori-tofu-skin-is-used-205.jpg"; sourceTree = "<group>"; };
+		ABEB699D1709F7E400A74A24 /* SSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWebViewController.h; sourceTree = "<group>"; };
+		ABEB699E1709F7E500A74A24 /* SSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWebViewController.m; sourceTree = "<group>"; };
+		ABEB69AE170A26FA00A74A24 /* SSFavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSFavViewController.h; sourceTree = "<group>"; };
+		ABEB69AF170A26FA00A74A24 /* SSFavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFavViewController.m; sourceTree = "<group>"; };
+		ABEB69B1170A54F700A74A24 /* sushi-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi-icon@2x.png"; sourceTree = "<group>"; };
+		ABEB69B3170A554B00A74A24 /* star-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-icon@2x.png"; sourceTree = "<group>"; };
+		ABEB69B6170A568200A74A24 /* about-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-icon@2x.png"; sourceTree = "<group>"; };
+		ABEB69B9170A570200A74A24 /* info-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +313,14 @@
 		AB70619217027E0C001CFD9F = {
 			isa = PBXGroup;
 			children = (
+				ABBC80D1170B45B800572304 /* 37x-Checkmark@2x.png */,
+				ABBC80E3170BEFC500572304 /* navigationbar.png */,
+				ABBC80E7170CA22C00572304 /* placeholder.png */,
+				ABBC80E5170BF08600572304 /* tabbar.png */,
+				ABBC80D4170B469800572304 /* MBProgressHUD */,
+				ABEB69BB170A5FB400A74A24 /* Icons */,
+				ABEB699C17095D8E00A74A24 /* Pattern Images */,
+				ABEB68C01709006E00A74A24 /* Sushi Images */,
 				AB7061A417027E0C001CFD9F /* Sushi */,
 				AB70619D17027E0C001CFD9F /* Frameworks */,
 				AB70619C17027E0C001CFD9F /* Products */,
@@ -85,12 +348,20 @@
 		AB7061A417027E0C001CFD9F /* Sushi */ = {
 			isa = PBXGroup;
 			children = (
+				ABEB687A1708F99600A74A24 /* Sushi.m */,
+				ABEB68791708F99600A74A24 /* Sushi.h */,
 				AB7061AD17027E0C001CFD9F /* SSAppDelegate.h */,
 				AB7061AE17027E0C001CFD9F /* SSAppDelegate.m */,
 				AB7061B617027E0C001CFD9F /* MainStoryboard_iPhone.storyboard */,
 				AB7061B917027E0C001CFD9F /* MainStoryboard_iPad.storyboard */,
 				AB7061BC17027E0C001CFD9F /* SSViewController.h */,
 				AB7061BD17027E0C001CFD9F /* SSViewController.m */,
+				ABEB69AE170A26FA00A74A24 /* SSFavViewController.h */,
+				ABEB69AF170A26FA00A74A24 /* SSFavViewController.m */,
+				ABEB68C517091FF400A74A24 /* SSDetailViewController.h */,
+				ABEB68C617091FF400A74A24 /* SSDetailViewController.m */,
+				ABEB699D1709F7E400A74A24 /* SSWebViewController.h */,
+				ABEB699E1709F7E500A74A24 /* SSWebViewController.m */,
 				AB7061A517027E0C001CFD9F /* Supporting Files */,
 			);
 			path = Sushi;
@@ -99,6 +370,7 @@
 		AB7061A517027E0C001CFD9F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ABEB68D017095CEA00A74A24 /* Sushi.plist */,
 				AB7061A617027E0C001CFD9F /* Sushi-Info.plist */,
 				AB7061A717027E0C001CFD9F /* InfoPlist.strings */,
 				AB7061AA17027E0C001CFD9F /* main.m */,
@@ -108,6 +380,151 @@
 				AB7061B417027E0C001CFD9F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABBC80D4170B469800572304 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC80D0170B44A400572304 /* MBProgressHUD.m */,
+				ABBC80CF170B44A400572304 /* MBProgressHUD.h */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		ABEB68C01709006E00A74A24 /* Sushi Images */ = {
+			isa = PBXGroup;
+			children = (
+				ABEB68D217095D0300A74A24 /* aji-sushi-205.jpg */,
+				ABEB68D317095D0300A74A24 /* akagai-sushi-205.jpg */,
+				ABEB68D417095D0300A74A24 /* Akami-sushi-205.jpg */,
+				ABEB68D517095D0300A74A24 /* amaebi-sushi-205.jpg */,
+				ABEB68D617095D0300A74A24 /* Anago-sushi-205.jpg */,
+				ABEB68D717095D0300A74A24 /* Ankimo-205.jpg */,
+				ABEB68D817095D0300A74A24 /* aoyagi-clam-205.jpg */,
+				ABEB68D917095D0300A74A24 /* Avocado-Maki-205.jpg */,
+				ABEB68DA17095D0300A74A24 /* Awabi-sushi-205.jpg */,
+				ABEB68DB17095D0300A74A24 /* ayu-sushi-205.jpg */,
+				ABEB68DC17095D0300A74A24 /* battera-zushi-205.jpg */,
+				ABEB68DD17095D0300A74A24 /* Buri-sushi-205.jpg */,
+				ABEB68DE17095D0300A74A24 /* california-roll-sushi-205.jpg */,
+				ABEB68DF17095D0300A74A24 /* chirashi-sushi-205.jpg */,
+				ABEB68E017095D0300A74A24 /* Chutoro-takaokun-205.jpg */,
+				ABEB68E117095D0300A74A24 /* daikon-oshinko-maki-sushi-205.jpg */,
+				ABEB68E217095D0300A74A24 /* ebi-sushi-205.jpg */,
+				ABEB68E317095D0300A74A24 /* Engawa-205.jpg */,
+				ABEB68E417095D0300A74A24 /* funazushi-205.jpg */,
+				ABEB68E517095D0300A74A24 /* futomaki-sushi-205.jpg */,
+				ABEB68E617095D0300A74A24 /* Gindara-sushi-205.jpg */,
+				ABEB68E717095D0300A74A24 /* Gunkanmaki-sushi-205.jpg */,
+				ABEB68E817095D0300A74A24 /* gyu-Nigiri-sushi-205.jpg */,
+				ABEB68E917095D0300A74A24 /* Hamachi-sushi-205.jpg */,
+				ABEB68EA17095D0300A74A24 /* Hamaguri-sushi-205.jpg */,
+				ABEB68EB17095D0300A74A24 /* Hamo-sushi-205.jpg */,
+				ABEB68EC17095D0300A74A24 /* Hatahata-zushi-205.jpg */,
+				ABEB68ED17095D0300A74A24 /* Hiramasa-sushi-205.jpg */,
+				ABEB68EE17095D0300A74A24 /* Hirame-sushi-205.jpg */,
+				ABEB68EF17095D0300A74A24 /* Hokkigai-sushi-205.jpg */,
+				ABEB68F017095D0300A74A24 /* Hotate-nigiri-sushi-205.jpg */,
+				ABEB68F117095D0300A74A24 /* ika-sushi-205.jpg */,
+				ABEB68F217095D0300A74A24 /* Ikura-maki-205.jpg */,
+				ABEB68F317095D0300A74A24 /* Inarizushi-photo-205.jpg */,
+				ABEB68F417095D0300A74A24 /* Isaki-sushi-205.jpg */,
+				ABEB68F517095D0300A74A24 /* Iseebi-sushi-205.jpg */,
+				ABEB68F617095D0300A74A24 /* Iwashi-sushi-205.jpg */,
+				ABEB68F717095D0300A74A24 /* kamaboko-kani-205.jpg */,
+				ABEB68F817095D0300A74A24 /* kani-zushi-205.jpg */,
+				ABEB68F917095D0300A74A24 /* kanpyo-sushi-205.jpg */,
+				ABEB68FA17095D0300A74A24 /* kappa-maki-sushi-205.jpg */,
+				ABEB68FB17095D0300A74A24 /* Karei-nigiri-sushi-205.jpg */,
+				ABEB68FC17095D0300A74A24 /* Katsuo-sushi-205.jpg */,
+				ABEB68FD17095D0300A74A24 /* Kazunoko-Sushi-205.jpg */,
+				ABEB68FE17095D0300A74A24 /* Kibinago-Nigiri-Sushi-205.jpg */,
+				ABEB68FF17095D0300A74A24 /* Kimmedai-sushi-205.jpg */,
+				ABEB690017095D0300A74A24 /* Kisu-sushi-205.jpg */,
+				ABEB690117095D0300A74A24 /* Kohada-sushi-205.jpg */,
+				ABEB690217095D0300A74A24 /* Kurodai-sushi-205.jpg */,
+				ABEB690317095D0300A74A24 /* Kuruma-sushi-205.jpg */,
+				ABEB690417095D0300A74A24 /* Madai-sushi-205.jpg */,
+				ABEB690517095D0300A74A24 /* maguro-sushi-205.jpg */,
+				ABEB690617095D0300A74A24 /* Mamakari-sushi-205.jpg */,
+				ABEB690717095D0300A74A24 /* Masago-Sushi-205.jpg */,
+				ABEB690817095D0300A74A24 /* Masu-sushi-205.jpg */,
+				ABEB690917095D0300A74A24 /* Mategai-sushi-205.jpg */,
+				ABEB690A17095D0300A74A24 /* Matsubagani-sushi-205.jpg */,
+				ABEB690B17095D0300A74A24 /* mehari-zushi-takana-leaf-205.jpg */,
+				ABEB690C17095D0300A74A24 /* Mentaiko-Sushi-205.jpg */,
+				ABEB690D17095D0300A74A24 /* Mirugai-Giant-Clam-Sushi-205.jpg */,
+				ABEB690E17095D0300A74A24 /* Mirugai-sushi-205.jpg */,
+				ABEB690F17095D0300A74A24 /* Namako-Sushi-205.jpg */,
+				ABEB691017095D0300A74A24 /* Namera-Nigiri-sushi-205.jpg */,
+				ABEB691117095D0300A74A24 /* Natto-Sushi-205.jpg */,
+				ABEB691217095D0300A74A24 /* Negitoro-sushi-205.jpg */,
+				ABEB691317095D0300A74A24 /* Noresore-sushi-205.jpg */,
+				ABEB691417095D0300A74A24 /* Ohyou-Nigiri-Halibut-Sushi-205.jpg */,
+				ABEB691517095D0300A74A24 /* Oshizushi-205.jpg */,
+				ABEB691617095D0300A74A24 /* saba-sushi-205.jpg */,
+				ABEB691717095D0300A74A24 /* sake-sushi-205.jpg */,
+				ABEB691817095D0300A74A24 /* sakura-niku-sushi-raw-horse-meat-205.jpg */,
+				ABEB691917095D0300A74A24 /* Sanma-sushi-205.jpg */,
+				ABEB691A17095D0300A74A24 /* Sasamaki-bamboo-leaf-sushi-205.jpg */,
+				ABEB691B17095D0300A74A24 /* Sawara-sushi-205.jpg */,
+				ABEB691C17095D0300A74A24 /* Sayori-sushi-205.jpg */,
+				ABEB691D17095D0300A74A24 /* Sea-Eel-and-Cucumber-Roll-Anakyu-205.jpg */,
+				ABEB691E17095D0300A74A24 /* shako-nigiri-sushi-205.jpg */,
+				ABEB691F17095D0300A74A24 /* Shime-saba-205.jpg */,
+				ABEB692017095D0300A74A24 /* shirasu-maki-sushi-205.jpg */,
+				ABEB692117095D0300A74A24 /* Shiro-maguro-205.jpg */,
+				ABEB692217095D0300A74A24 /* Shiroebi-sushi-205.jpg */,
+				ABEB692317095D0300A74A24 /* Spicy-Tuna-Roll-Western-Sushi-205.jpg */,
+				ABEB692417095D0300A74A24 /* Suzuki-sushi-205.jpg */,
+				ABEB692517095D0300A74A24 /* Tai-sushi-205.jpg */,
+				ABEB692617095D0300A74A24 /* Tairagai-sushi-205.jpg */,
+				ABEB692717095D0300A74A24 /* tako-sushi-205.jpg */,
+				ABEB692817095D0300A74A24 /* Tamagoyaki-sushi-205.jpg */,
+				ABEB692917095D0300A74A24 /* Tekkamaki-205.jpg */,
+				ABEB692A17095D0300A74A24 /* temaki-205.jpg */,
+				ABEB692B17095D0300A74A24 /* Temarizushi-205.jpg */,
+				ABEB692C17095D0300A74A24 /* tobiko-sushi-205.jpg */,
+				ABEB692D17095D0300A74A24 /* Torigai-sushi-205.jpg */,
+				ABEB692E17095D0300A74A24 /* Toro-sushi-205.jpg */,
+				ABEB692F17095D0300A74A24 /* Tsubugai-sushi-205.jpg */,
+				ABEB693017095D0300A74A24 /* tsunamayo-205.jpg */,
+				ABEB693117095D0300A74A24 /* umeboshi-sushi-205.jpg */,
+				ABEB693217095D0300A74A24 /* Umekyu-cucumber-and-pickled-japanese-plum-205.jpg */,
+				ABEB693317095D0300A74A24 /* unagi-sushi-205.jpg */,
+				ABEB693417095D0300A74A24 /* Uni-Sushi-205.jpg */,
+				ABEB693517095D0300A74A24 /* uramaki-205.jpg */,
+				ABEB693617095D0300A74A24 /* yuba-maki-instead-of-nori-tofu-skin-is-used-205.jpg */,
+			);
+			name = "Sushi Images";
+			sourceTree = "<group>";
+		};
+		ABEB699C17095D8E00A74A24 /* Pattern Images */ = {
+			isa = PBXGroup;
+			children = (
+				ABEB68C117091FC000A74A24 /* wide-photo-frame.png */,
+				ABEB68C217091FC000A74A24 /* wide-photo-frame@2x.png */,
+				ABEB68731708F25B00A74A24 /* photo-frame.png */,
+				ABEB68CC1709322800A74A24 /* arches_@2X.png */,
+				ABEB68CD1709322900A74A24 /* arches.png */,
+				ABEB68751708F43000A74A24 /* escheresque_ste_@2X.png */,
+				ABEB68761708F43000A74A24 /* escheresque_ste.png */,
+			);
+			name = "Pattern Images";
+			sourceTree = "<group>";
+		};
+		ABEB69BB170A5FB400A74A24 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC80DB170B4C7500572304 /* empty-star-icon@2x.png */,
+				ABBC80DC170B4C7500572304 /* filled-star-icon@2x.png */,
+				ABBC80DD170B4C7500572304 /* google-icon@2x.png */,
+				ABEB69B6170A568200A74A24 /* about-icon@2x.png */,
+				ABEB69B9170A570200A74A24 /* info-icon@2x.png */,
+				ABEB69B1170A54F700A74A24 /* sushi-icon@2x.png */,
+				ABEB69B3170A554B00A74A24 /* star-icon@2x.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +585,126 @@
 				AB7061B517027E0C001CFD9F /* Default-568h@2x.png in Resources */,
 				AB7061B817027E0C001CFD9F /* MainStoryboard_iPhone.storyboard in Resources */,
 				AB7061BB17027E0C001CFD9F /* MainStoryboard_iPad.storyboard in Resources */,
+				ABEB68741708F25B00A74A24 /* photo-frame.png in Resources */,
+				ABEB68771708F43000A74A24 /* escheresque_ste_@2X.png in Resources */,
+				ABEB68781708F43000A74A24 /* escheresque_ste.png in Resources */,
+				ABEB68C317091FC100A74A24 /* wide-photo-frame.png in Resources */,
+				ABEB68C417091FC100A74A24 /* wide-photo-frame@2x.png in Resources */,
+				ABEB68CE1709322900A74A24 /* arches_@2X.png in Resources */,
+				ABEB68CF1709322900A74A24 /* arches.png in Resources */,
+				ABEB68D117095CEB00A74A24 /* Sushi.plist in Resources */,
+				ABEB693717095D0300A74A24 /* aji-sushi-205.jpg in Resources */,
+				ABEB693817095D0300A74A24 /* akagai-sushi-205.jpg in Resources */,
+				ABEB693917095D0300A74A24 /* Akami-sushi-205.jpg in Resources */,
+				ABEB693A17095D0300A74A24 /* amaebi-sushi-205.jpg in Resources */,
+				ABEB693B17095D0300A74A24 /* Anago-sushi-205.jpg in Resources */,
+				ABEB693C17095D0300A74A24 /* Ankimo-205.jpg in Resources */,
+				ABEB693D17095D0300A74A24 /* aoyagi-clam-205.jpg in Resources */,
+				ABEB693E17095D0300A74A24 /* Avocado-Maki-205.jpg in Resources */,
+				ABEB693F17095D0300A74A24 /* Awabi-sushi-205.jpg in Resources */,
+				ABEB694017095D0300A74A24 /* ayu-sushi-205.jpg in Resources */,
+				ABEB694117095D0300A74A24 /* battera-zushi-205.jpg in Resources */,
+				ABEB694217095D0300A74A24 /* Buri-sushi-205.jpg in Resources */,
+				ABEB694317095D0300A74A24 /* california-roll-sushi-205.jpg in Resources */,
+				ABEB694417095D0300A74A24 /* chirashi-sushi-205.jpg in Resources */,
+				ABEB694517095D0300A74A24 /* Chutoro-takaokun-205.jpg in Resources */,
+				ABEB694617095D0300A74A24 /* daikon-oshinko-maki-sushi-205.jpg in Resources */,
+				ABEB694717095D0300A74A24 /* ebi-sushi-205.jpg in Resources */,
+				ABEB694817095D0300A74A24 /* Engawa-205.jpg in Resources */,
+				ABEB694917095D0300A74A24 /* funazushi-205.jpg in Resources */,
+				ABEB694A17095D0300A74A24 /* futomaki-sushi-205.jpg in Resources */,
+				ABEB694B17095D0300A74A24 /* Gindara-sushi-205.jpg in Resources */,
+				ABEB694C17095D0300A74A24 /* Gunkanmaki-sushi-205.jpg in Resources */,
+				ABEB694D17095D0300A74A24 /* gyu-Nigiri-sushi-205.jpg in Resources */,
+				ABEB694E17095D0300A74A24 /* Hamachi-sushi-205.jpg in Resources */,
+				ABEB694F17095D0300A74A24 /* Hamaguri-sushi-205.jpg in Resources */,
+				ABEB695017095D0300A74A24 /* Hamo-sushi-205.jpg in Resources */,
+				ABEB695117095D0300A74A24 /* Hatahata-zushi-205.jpg in Resources */,
+				ABEB695217095D0300A74A24 /* Hiramasa-sushi-205.jpg in Resources */,
+				ABEB695317095D0300A74A24 /* Hirame-sushi-205.jpg in Resources */,
+				ABEB695417095D0300A74A24 /* Hokkigai-sushi-205.jpg in Resources */,
+				ABEB695517095D0300A74A24 /* Hotate-nigiri-sushi-205.jpg in Resources */,
+				ABEB695617095D0300A74A24 /* ika-sushi-205.jpg in Resources */,
+				ABEB695717095D0300A74A24 /* Ikura-maki-205.jpg in Resources */,
+				ABEB695817095D0300A74A24 /* Inarizushi-photo-205.jpg in Resources */,
+				ABEB695917095D0300A74A24 /* Isaki-sushi-205.jpg in Resources */,
+				ABEB695A17095D0300A74A24 /* Iseebi-sushi-205.jpg in Resources */,
+				ABEB695B17095D0300A74A24 /* Iwashi-sushi-205.jpg in Resources */,
+				ABEB695C17095D0300A74A24 /* kamaboko-kani-205.jpg in Resources */,
+				ABEB695D17095D0300A74A24 /* kani-zushi-205.jpg in Resources */,
+				ABEB695E17095D0300A74A24 /* kanpyo-sushi-205.jpg in Resources */,
+				ABEB695F17095D0300A74A24 /* kappa-maki-sushi-205.jpg in Resources */,
+				ABEB696017095D0300A74A24 /* Karei-nigiri-sushi-205.jpg in Resources */,
+				ABEB696117095D0300A74A24 /* Katsuo-sushi-205.jpg in Resources */,
+				ABEB696217095D0300A74A24 /* Kazunoko-Sushi-205.jpg in Resources */,
+				ABEB696317095D0300A74A24 /* Kibinago-Nigiri-Sushi-205.jpg in Resources */,
+				ABEB696417095D0300A74A24 /* Kimmedai-sushi-205.jpg in Resources */,
+				ABEB696517095D0300A74A24 /* Kisu-sushi-205.jpg in Resources */,
+				ABEB696617095D0300A74A24 /* Kohada-sushi-205.jpg in Resources */,
+				ABEB696717095D0300A74A24 /* Kurodai-sushi-205.jpg in Resources */,
+				ABEB696817095D0300A74A24 /* Kuruma-sushi-205.jpg in Resources */,
+				ABEB696917095D0300A74A24 /* Madai-sushi-205.jpg in Resources */,
+				ABEB696A17095D0300A74A24 /* maguro-sushi-205.jpg in Resources */,
+				ABEB696B17095D0300A74A24 /* Mamakari-sushi-205.jpg in Resources */,
+				ABEB696C17095D0300A74A24 /* Masago-Sushi-205.jpg in Resources */,
+				ABEB696D17095D0300A74A24 /* Masu-sushi-205.jpg in Resources */,
+				ABEB696E17095D0300A74A24 /* Mategai-sushi-205.jpg in Resources */,
+				ABEB696F17095D0300A74A24 /* Matsubagani-sushi-205.jpg in Resources */,
+				ABEB697017095D0300A74A24 /* mehari-zushi-takana-leaf-205.jpg in Resources */,
+				ABEB697117095D0300A74A24 /* Mentaiko-Sushi-205.jpg in Resources */,
+				ABEB697217095D0300A74A24 /* Mirugai-Giant-Clam-Sushi-205.jpg in Resources */,
+				ABEB697317095D0300A74A24 /* Mirugai-sushi-205.jpg in Resources */,
+				ABEB697417095D0300A74A24 /* Namako-Sushi-205.jpg in Resources */,
+				ABEB697517095D0300A74A24 /* Namera-Nigiri-sushi-205.jpg in Resources */,
+				ABEB697617095D0300A74A24 /* Natto-Sushi-205.jpg in Resources */,
+				ABEB697717095D0300A74A24 /* Negitoro-sushi-205.jpg in Resources */,
+				ABEB697817095D0300A74A24 /* Noresore-sushi-205.jpg in Resources */,
+				ABEB697917095D0300A74A24 /* Ohyou-Nigiri-Halibut-Sushi-205.jpg in Resources */,
+				ABEB697A17095D0300A74A24 /* Oshizushi-205.jpg in Resources */,
+				ABEB697B17095D0300A74A24 /* saba-sushi-205.jpg in Resources */,
+				ABEB697C17095D0300A74A24 /* sake-sushi-205.jpg in Resources */,
+				ABEB697D17095D0400A74A24 /* sakura-niku-sushi-raw-horse-meat-205.jpg in Resources */,
+				ABEB697E17095D0400A74A24 /* Sanma-sushi-205.jpg in Resources */,
+				ABEB697F17095D0400A74A24 /* Sasamaki-bamboo-leaf-sushi-205.jpg in Resources */,
+				ABEB698017095D0400A74A24 /* Sawara-sushi-205.jpg in Resources */,
+				ABEB698117095D0400A74A24 /* Sayori-sushi-205.jpg in Resources */,
+				ABEB698217095D0400A74A24 /* Sea-Eel-and-Cucumber-Roll-Anakyu-205.jpg in Resources */,
+				ABEB698317095D0400A74A24 /* shako-nigiri-sushi-205.jpg in Resources */,
+				ABEB698417095D0400A74A24 /* Shime-saba-205.jpg in Resources */,
+				ABEB698517095D0400A74A24 /* shirasu-maki-sushi-205.jpg in Resources */,
+				ABEB698617095D0400A74A24 /* Shiro-maguro-205.jpg in Resources */,
+				ABEB698717095D0400A74A24 /* Shiroebi-sushi-205.jpg in Resources */,
+				ABEB698817095D0400A74A24 /* Spicy-Tuna-Roll-Western-Sushi-205.jpg in Resources */,
+				ABEB698917095D0400A74A24 /* Suzuki-sushi-205.jpg in Resources */,
+				ABEB698A17095D0400A74A24 /* Tai-sushi-205.jpg in Resources */,
+				ABEB698B17095D0400A74A24 /* Tairagai-sushi-205.jpg in Resources */,
+				ABEB698C17095D0400A74A24 /* tako-sushi-205.jpg in Resources */,
+				ABEB698D17095D0400A74A24 /* Tamagoyaki-sushi-205.jpg in Resources */,
+				ABEB698E17095D0400A74A24 /* Tekkamaki-205.jpg in Resources */,
+				ABEB698F17095D0400A74A24 /* temaki-205.jpg in Resources */,
+				ABEB699017095D0400A74A24 /* Temarizushi-205.jpg in Resources */,
+				ABEB699117095D0400A74A24 /* tobiko-sushi-205.jpg in Resources */,
+				ABEB699217095D0400A74A24 /* Torigai-sushi-205.jpg in Resources */,
+				ABEB699317095D0400A74A24 /* Toro-sushi-205.jpg in Resources */,
+				ABEB699417095D0400A74A24 /* Tsubugai-sushi-205.jpg in Resources */,
+				ABEB699517095D0400A74A24 /* tsunamayo-205.jpg in Resources */,
+				ABEB699617095D0400A74A24 /* umeboshi-sushi-205.jpg in Resources */,
+				ABEB699717095D0400A74A24 /* Umekyu-cucumber-and-pickled-japanese-plum-205.jpg in Resources */,
+				ABEB699817095D0400A74A24 /* unagi-sushi-205.jpg in Resources */,
+				ABEB699917095D0400A74A24 /* Uni-Sushi-205.jpg in Resources */,
+				ABEB699A17095D0400A74A24 /* uramaki-205.jpg in Resources */,
+				ABEB699B17095D0400A74A24 /* yuba-maki-instead-of-nori-tofu-skin-is-used-205.jpg in Resources */,
+				ABEB69B2170A54F700A74A24 /* sushi-icon@2x.png in Resources */,
+				ABEB69B4170A554B00A74A24 /* star-icon@2x.png in Resources */,
+				ABEB69B8170A568300A74A24 /* about-icon@2x.png in Resources */,
+				ABEB69BA170A570200A74A24 /* info-icon@2x.png in Resources */,
+				ABBC80D2170B45B800572304 /* 37x-Checkmark@2x.png in Resources */,
+				ABBC80DE170B4C7500572304 /* empty-star-icon@2x.png in Resources */,
+				ABBC80DF170B4C7500572304 /* filled-star-icon@2x.png in Resources */,
+				ABBC80E0170B4C7500572304 /* google-icon@2x.png in Resources */,
+				ABBC80E4170BEFC500572304 /* navigationbar.png in Resources */,
+				ABBC80E6170BF08600572304 /* tabbar.png in Resources */,
+				ABBC80E8170CA22D00572304 /* placeholder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,9 +715,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABBC80D3170B461C00572304 /* MBProgressHUD.m in Sources */,
 				AB7061AB17027E0C001CFD9F /* main.m in Sources */,
 				AB7061AF17027E0C001CFD9F /* SSAppDelegate.m in Sources */,
 				AB7061BE17027E0C001CFD9F /* SSViewController.m in Sources */,
+				ABEB687B1708F99600A74A24 /* Sushi.m in Sources */,
+				ABEB68C717091FF500A74A24 /* SSDetailViewController.m in Sources */,
+				ABEB699F1709F7E500A74A24 /* SSWebViewController.m in Sources */,
+				ABEB69B0170A26FA00A74A24 /* SSFavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +821,7 @@
 				GCC_PREFIX_HEADER = "Sushi/Sushi-Prefix.pch";
 				INFOPLIST_FILE = "Sushi/Sushi-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -290,6 +833,7 @@
 				GCC_PREFIX_HEADER = "Sushi/Sushi-Prefix.pch";
 				INFOPLIST_FILE = "Sushi/Sushi-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -313,6 +857,7 @@
 				AB7061C317027E0C001CFD9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

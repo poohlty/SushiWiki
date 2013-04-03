@@ -1,14 +1,14 @@
 //
-//  SSViewController.h
+//  SSFavViewController.h
 //  Sushi
 //
-//  Created by Tianyu Liu on 3/26/13.
+//  Created by Tianyu Liu on 4/1/13.
 //  Copyright (c) 2013 Tianyu Liu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface SSViewController : UICollectionViewController
+@interface SSFavViewController : UICollectionViewController
 
 @property (strong, nonatomic) NSArray *sushi;
 

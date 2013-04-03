@@ -1,29 +1,49 @@
 //
-//  SSViewController.m
+//  SSFavViewController.m
 //  Sushi
 //
-//  Created by Tianyu Liu on 3/26/13.
+//  Created by Tianyu Liu on 4/1/13.
 //  Copyright (c) 2013 Tianyu Liu. All rights reserved.
 //
 
-#import "SSViewController.h"
-#import "SSDetailViewController.h"
+#import "SSFavViewController.h"
 #import "Sushi.h"
+#import "SSDetailViewController.h"
 
-@interface SSViewController ()
+@interface SSFavViewController ()
 
 @end
 
-@implementation SSViewController
+@implementation SSFavViewController{
+    UIImageView *placeholderImage;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    //customize the background and bars
+    //customize the background with pattern
     self.collectionView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"escheresque_ste"]];
     UICollectionViewFlowLayout *collectionViewLayout = (UICollectionViewFlowLayout*)self.collectionView.collectionViewLayout;
     collectionViewLayout.sectionInset = UIEdgeInsetsMake(20, 0, 20, 0);
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(loadSushi)
+                                                 name:@"favSushiChanged"
+                                               object:nil];
+    placeholderImage = [[UIImageView alloc] init];
+    placeholderImage.frame = CGRectMake(60, 153, 200, 150);
+    placeholderImage.image = [UIImage imageNamed:@"placeholder"];
+    
+    [self.view addSubview:placeholderImage];
+    
+    [self loadSushi];
+}
+
+- (void)loadSushi{
+    
+    NSUserDefaults * standardUserDefaults = [NSUserDefaults standardUserDefaults];
+    NSArray *tempFav = [standardUserDefaults arrayForKey:@"favourite"];
     
     //initialize temp array to store avaliable sushi
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Sushi" ofType:@"plist"];
@@ -32,12 +52,21 @@
     //initilize sushi property
     NSMutableArray *tempSushi = [[NSMutableArray alloc]init];
     for (NSDictionary *sushi in data) {
-        Sushi *newSushi = [[Sushi alloc]initWithName:sushi[@"name"]
-                                         description:sushi[@"description"]
-                                           imageName:sushi[@"imageName"]];
-        [tempSushi addObject:newSushi];
+        if ([tempFav containsObject:sushi[@"name"]]) {
+            Sushi *newSushi = [[Sushi alloc]initWithName:sushi[@"name"]
+                                             description:sushi[@"description"]
+                                               imageName:sushi[@"imageName"]];
+            [tempSushi addObject:newSushi];
+        }
     }
     self.sushi = [[NSArray alloc]initWithArray:tempSushi];
+    [self.collectionView reloadData];
+    
+    if (self.sushi.count == 0) {
+        placeholderImage.hidden = NO;
+    } else {
+        placeholderImage.hidden = YES;
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -51,12 +80,12 @@
 }
 
 -(UICollectionViewCell *) collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
-    static NSString *identifier = @"Cell";
+    static NSString *identifier = @"FavCell";
     
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
     
-    UIImageView *recipeImageView = (UIImageView *)[cell viewWithTag:7];
-    UILabel *sushiLabel = (UILabel *)[cell viewWithTag:9];
+    UIImageView *recipeImageView = (UIImageView *)[cell viewWithTag:11];
+    UILabel *sushiLabel = (UILabel *)[cell viewWithTag:13];
     
     recipeImageView.image = [UIImage imageNamed:[self.sushi[indexPath.row] imageName]];
     sushiLabel.text = [self.sushi[indexPath.row] name];
@@ -67,7 +96,7 @@
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:@"pushSushiDetail"]) {
+    if ([segue.identifier isEqualToString:@"pushSushiDetail2"]) {
         NSArray *indexPaths = [self.collectionView indexPathsForSelectedItems];
         SSDetailViewController *destViewController = segue.destinationViewController;
         NSIndexPath *indexPath = [indexPaths objectAtIndex:0];

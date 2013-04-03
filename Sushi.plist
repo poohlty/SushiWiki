@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Maguro Nigiri</string>
+		<key>description</key>
+		<string>Thunnus Tuna (the cheap non-fatty type)</string>
+		<key>imageName</key>
+		<string>maguro-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kappa Maki</string>
+		<key>description</key>
+		<string>Cucumber — named after a Japanese monster who eats cucumbers.</string>
+		<key>imageName</key>
+		<string>kappa-maki-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sake Nigiri</string>
+		<key>description</key>
+		<string>Salmon</string>
+		<key>imageName</key>
+		<string>sake-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ikura Gukan</string>
+		<key>description</key>
+		<string>Salmon Roe</string>
+		<key>imageName</key>
+		<string>Ikura-maki-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Toro</string>
+		<key>description</key>
+		<string>Fatty Bluefin Tuna belly</string>
+		<key>imageName</key>
+		<string>Toro-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Uni </string>
+		<key>description</key>
+		<string>Gonad of Sea urchin</string>
+		<key>imageName</key>
+		<string>Uni-Sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Amaebi</string>
+		<key>description</key>
+		<string>Raw shrimp</string>
+		<key>imageName</key>
+		<string>amaebi-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ebi Nigiri</string>
+		<key>description</key>
+		<string>Cooked shrimp</string>
+		<key>imageName</key>
+		<string>ebi-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hamachi </string>
+		<key>description</key>
+		<string>Young Yellowtail</string>
+		<key>imageName</key>
+		<string>Hamachi-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Anago</string>
+		<key>description</key>
+		<string>Conger eel (saltwater eel)</string>
+		<key>imageName</key>
+		<string>Anago-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ika Nigiri</string>
+		<key>description</key>
+		<string>Squid</string>
+		<key>imageName</key>
+		<string>ika-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hotate Nigiri</string>
+		<key>description</key>
+		<string>Scallop</string>
+		<key>imageName</key>
+		<string>Hotate-nigiri-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tamagoyaki </string>
+		<key>description</key>
+		<string>Fried egg</string>
+		<key>imageName</key>
+		<string>Tamagoyaki-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tako Nigiri</string>
+		<key>description</key>
+		<string>Octopus</string>
+		<key>imageName</key>
+		<string>tako-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tai </string>
+		<key>description</key>
+		<string>Seabream Snapper </string>
+		<key>imageName</key>
+		<string>Tai-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Aji </string>
+		<key>description</key>
+		<string>Japanese Jack Mackerel</string>
+		<key>imageName</key>
+		<string>aji-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tekkamaki </string>
+		<key>description</key>
+		<string>Tuna thin roll</string>
+		<key>imageName</key>
+		<string>Tekkamaki-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Saba </string>
+		<key>description</key>
+		<string>Mackerel</string>
+		<key>imageName</key>
+		<string>saba-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>California Roll</string>
+		<key>description</key>
+		<string>One of the rare types of Western sushi that&apos;s popular in Japan. A roll made of cucumber, imitation crab, and avocado.</string>
+		<key>imageName</key>
+		<string>california-roll-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Futomaki</string>
+		<key>description</key>
+		<string>A thick roll containing multiple ingredients.   Common ingredients include egg, kanpyo, cucumber and mushrooms. </string>
+		<key>imageName</key>
+		<string>futomaki-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Unagi</string>
+		<key>description</key>
+		<string>Freshwater eel broiled with a sweet sauce.</string>
+		<key>imageName</key>
+		<string>unagi-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ayu</string>
+		<key>description</key>
+		<string>Sweetfish</string>
+		<key>imageName</key>
+		<string>ayu-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Natto Maki</string>
+		<key>description</key>
+		<string>Fermented soybeans </string>
+		<key>imageName</key>
+		<string>Natto-Sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sanma</string>
+		<key>description</key>
+		<string>Mackerel pike</string>
+		<key>imageName</key>
+		<string>Sanma-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Negitoro</string>
+		<key>description</key>
+		<string>Chives and fatty Bluefin tuna belly</string>
+		<key>imageName</key>
+		<string>Negitoro-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kani Nigiri</string>
+		<key>description</key>
+		<string>Crab leg (real)</string>
+		<key>imageName</key>
+		<string>kani-zushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kamaboko Kani</string>
+		<key>description</key>
+		<string>Fake crab (this is often called kani nigiri outside Japan)</string>
+		<key>imageName</key>
+		<string>kamaboko-kani-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Umeboshi</string>
+		<key>description</key>
+		<string>Pickled ume fruits</string>
+		<key>imageName</key>
+		<string>umeboshi-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Shako Nigiri</string>
+		<key>description</key>
+		<string>Mantis shrimp </string>
+		<key>imageName</key>
+		<string>shako-nigiri-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Daikon Oshinko Maki</string>
+		<key>description</key>
+		<string>Japanese radish pickles</string>
+		<key>imageName</key>
+		<string>daikon-oshinko-maki-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ankimo</string>
+		<key>description</key>
+		<string>Monkfish liver</string>
+		<key>imageName</key>
+		<string>Ankimo-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mentaiko</string>
+		<key>description</key>
+		<string>Pollock roe</string>
+		<key>imageName</key>
+		<string>Mentaiko-Sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Temaki</string>
+		<key>description</key>
+		<string>A cone-shaped sushi wrapped in nori that&apos;s intended to be eaten with your hands.</string>
+		<key>imageName</key>
+		<string>temaki-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Chutoro</string>
+		<key>description</key>
+		<string>Chutoro is similar to Toro (Fatty Bluefin tuna belly).   The only difference is that it&apos;s a cut that&apos;s closer to the rear of the tuna and is less fatty.</string>
+		<key>imageName</key>
+		<string>Chutoro-takaokun-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Chirashizushi</string>
+		<key>description</key>
+		<string>A bowl of sushi rice topped with a variety of raw fish and garnishes.</string>
+		<key>imageName</key>
+		<string>chirashi-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Iseebi Nigiri</string>
+		<key>description</key>
+		<string>Lobster</string>
+		<key>imageName</key>
+		<string>Iseebi-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Shirasu</string>
+		<key>description</key>
+		<string>Baby anchovy or sardines.</string>
+		<key>imageName</key>
+		<string>shirasu-maki-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Inarizushi</string>
+		<key>description</key>
+		<string>A fried tofu pouch filled with sushi rice.  Named after the Shinto god Inari who likes fried tofu.</string>
+		<key>imageName</key>
+		<string>Inarizushi-photo-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tsuna Mayo Maki </string>
+		<key>description</key>
+		<string>Tuna and mayonnaise</string>
+		<key>imageName</key>
+		<string>tsunamayo-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Engawa</string>
+		<key>description</key>
+		<string>Fin of Flounder</string>
+		<key>imageName</key>
+		<string>Engawa-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Buri</string>
+		<key>description</key>
+		<string>Adult Yellowtail</string>
+		<key>imageName</key>
+		<string>Buri-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Matsubagani</string>
+		<key>description</key>
+		<string>Snow crab legs</string>
+		<key>imageName</key>
+		<string>Matsubagani-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Uramaki</string>
+		<key>description</key>
+		<string>Inside out maki.   The nori is on the inside and rice on the outside.    Uramaki is much more popular in the West than in Japan.</string>
+		<key>imageName</key>
+		<string>uramaki-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Masago</string>
+		<key>description</key>
+		<string>Smelt roe</string>
+		<key>imageName</key>
+		<string>Masago-Sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tobiko Nigiri</string>
+		<key>description</key>
+		<string>Flying fish roe</string>
+		<key>imageName</key>
+		<string>tobiko-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Shime Saba</string>
+		<key>description</key>
+		<string>Marinated Chub Mackerel</string>
+		<key>imageName</key>
+		<string>Shime-saba-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hatahata</string>
+		<key>description</key>
+		<string>Sandfish</string>
+		<key>imageName</key>
+		<string>Hatahata-zushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Gunkanmaki</string>
+		<key>description</key>
+		<string>A hand-formed clump of sushi rice with nori wrapped around it.</string>
+		<key>imageName</key>
+		<string>Gunkanmaki-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kimmedai</string>
+		<key>description</key>
+		<string>Splendid Alfonsino</string>
+		<key>imageName</key>
+		<string>Kimmedai-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kisu</string>
+		<key>description</key>
+		<string>Sillago</string>
+		<key>imageName</key>
+		<string>Kisu-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hiramasa</string>
+		<key>description</key>
+		<string>Yellowtail amberjack </string>
+		<key>imageName</key>
+		<string>Hiramasa-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Katsuo</string>
+		<key>description</key>
+		<string>Skipjack tuna</string>
+		<key>imageName</key>
+		<string>Katsuo-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kohada</string>
+		<key>description</key>
+		<string>Japanese gizzard shad</string>
+		<key>imageName</key>
+		<string>Kohada-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Torigai</string>
+		<key>description</key>
+		<string>Cockle</string>
+		<key>imageName</key>
+		<string>Torigai-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tsubugai</string>
+		<key>description</key>
+		<string>Whelk</string>
+		<key>imageName</key>
+		<string>Tsubugai-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Gindara Nigiri</string>
+		<key>description</key>
+		<string>Sablefish</string>
+		<key>imageName</key>
+		<string>Gindara-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Namera Nigiri</string>
+		<key>description</key>
+		<string>Grouper</string>
+		<key>imageName</key>
+		<string>Namera-Nigiri-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Temarizushi</string>
+		<key>description</key>
+		<string>Ball-shaped hand formed sushi.</string>
+		<key>imageName</key>
+		<string>Temarizushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kurodai</string>
+		<key>description</key>
+		<string>Black sea bream</string>
+		<key>imageName</key>
+		<string>Kurodai-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sasamaki</string>
+		<key>description</key>
+		<string>Bamboo leaf rolls</string>
+		<key>imageName</key>
+		<string>Sasamaki-bamboo-leaf-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hirame Nigiri</string>
+		<key>description</key>
+		<string>Fluke (flounder)</string>
+		<key>imageName</key>
+		<string>Hirame-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Oshizushi</string>
+		<key>description</key>
+		<string>A pressed sushi from the Kansai Region (Osaka).  A wooden mold is used to shape the sushi.</string>
+		<key>imageName</key>
+		<string>Oshizushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Shiroebi Nigiri</string>
+		<key>description</key>
+		<string>White Shrimp</string>
+		<key>imageName</key>
+		<string>Shiroebi-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hamaguri</string>
+		<key>description</key>
+		<string>A type of clam.</string>
+		<key>imageName</key>
+		<string>Hamaguri-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Aoyagi</string>
+		<key>description</key>
+		<string>Round clam.</string>
+		<key>imageName</key>
+		<string>aoyagi-clam-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mirugai</string>
+		<key>description</key>
+		<string>Giant Clam</string>
+		<key>imageName</key>
+		<string>Mirugai-Giant-Clam-Sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ohyou Nigiri</string>
+		<key>description</key>
+		<string>Halibut</string>
+		<key>imageName</key>
+		<string>Ohyou-Nigiri-Halibut-Sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Akami</string>
+		<key>description</key>
+		<string>Top loin of Bluefin tuna.</string>
+		<key>imageName</key>
+		<string>Akami-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sawara Nigiri</string>
+		<key>description</key>
+		<string>Spanish mackerel</string>
+		<key>imageName</key>
+		<string>Sawara-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Awabi Nigiri</string>
+		<key>description</key>
+		<string>Abalone</string>
+		<key>imageName</key>
+		<string>Awabi-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sakura Niku</string>
+		<key>description</key>
+		<string>Raw horse meat</string>
+		<key>imageName</key>
+		<string>sakura-niku-sushi-raw-horse-meat-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Isaki</string>
+		<key>description</key>
+		<string>Striped Pigfish</string>
+		<key>imageName</key>
+		<string>Isaki-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kibinago</string>
+		<key>description</key>
+		<string>Banded Blue Sprat</string>
+		<key>imageName</key>
+		<string>Kibinago-Nigiri-Sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Iwashi</string>
+		<key>description</key>
+		<string>Sardine</string>
+		<key>imageName</key>
+		<string>Iwashi-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Battera Sushi</string>
+		<key>description</key>
+		<string>Pressed box sushi with Mackerel and Konbu</string>
+		<key>imageName</key>
+		<string>battera-zushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kanpyo maki</string>
+		<key>description</key>
+		<string>Pickled Gourd rolls</string>
+		<key>imageName</key>
+		<string>kanpyo-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Suzuki Nigiri</string>
+		<key>description</key>
+		<string>Sea bass</string>
+		<key>imageName</key>
+		<string>Suzuki-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Karei</string>
+		<key>description</key>
+		<string>Flatfish</string>
+		<key>imageName</key>
+		<string>Karei-nigiri-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tairagai Nigiri</string>
+		<key>description</key>
+		<string>Pen-shell clam</string>
+		<key>imageName</key>
+		<string>Tairagai-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Shiro Maguro</string>
+		<key>description</key>
+		<string>Binnaga</string>
+		<key>imageName</key>
+		<string>Shiro-maguro-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Noresore</string>
+		<key>description</key>
+		<string>Baby Anago</string>
+		<key>imageName</key>
+		<string>Noresore-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kazunoko</string>
+		<key>description</key>
+		<string>Herring roe</string>
+		<key>imageName</key>
+		<string>Kazunoko-Sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mirugai</string>
+		<key>description</key>
+		<string>Geoduck clam</string>
+		<key>imageName</key>
+		<string>Mirugai-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mategai</string>
+		<key>description</key>
+		<string>Razor clam</string>
+		<key>imageName</key>
+		<string>Mategai-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hamo</string>
+		<key>description</key>
+		<string>Daggertooth Pike Conger</string>
+		<key>imageName</key>
+		<string>Hamo-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mamakari</string>
+		<key>description</key>
+		<string>Sprat</string>
+		<key>imageName</key>
+		<string>Mamakari-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Madai</string>
+		<key>description</key>
+		<string>Red Seabream Snapper</string>
+		<key>imageName</key>
+		<string>Madai-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sayori</string>
+		<key>description</key>
+		<string>Halfbeak fish</string>
+		<key>imageName</key>
+		<string>Sayori-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Anakyu</string>
+		<key>description</key>
+		<string>Sea Eel and cucumber</string>
+		<key>imageName</key>
+		<string>Sea-Eel-and-Cucumber-Roll-Anakyu-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Akagai</string>
+		<key>description</key>
+		<string>Ark shell</string>
+		<key>imageName</key>
+		<string>akagai-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Namako</string>
+		<key>description</key>
+		<string>Sea Cucumber</string>
+		<key>imageName</key>
+		<string>Namako-Sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Meharizushi</string>
+		<key>description</key>
+		<string>Sushi wrapped in a Takana leaf.</string>
+		<key>imageName</key>
+		<string>mehari-zushi-takana-leaf-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kuruma</string>
+		<key>description</key>
+		<string>Kuruma prawn</string>
+		<key>imageName</key>
+		<string>Kuruma-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Funazushi </string>
+		<key>description</key>
+		<string>Fermented sushi</string>
+		<key>imageName</key>
+		<string>funazushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Masu Nigiri</string>
+		<key>description</key>
+		<string>Trout </string>
+		<key>imageName</key>
+		<string>Masu-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Abokado Maki</string>
+		<key>description</key>
+		<string>Avocado rolls</string>
+		<key>imageName</key>
+		<string>Avocado-Maki-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hokkigai</string>
+		<key>description</key>
+		<string>Surf clam</string>
+		<key>imageName</key>
+		<string>Hokkigai-sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Yuba Maki</string>
+		<key>description</key>
+		<string>Rolls wrapped in yuba (tofu skin)</string>
+		<key>imageName</key>
+		<string>yuba-maki-instead-of-nori-tofu-skin-is-used-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Umekyu</string>
+		<key>description</key>
+		<string>Cucumber and pickled Japanese plum.</string>
+		<key>imageName</key>
+		<string>Umekyu-cucumber-and-pickled-japanese-plum-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string> Spicy Tuna Maki</string>
+		<key>description</key>
+		<string>A Western variety of sushi sometimes found in Japan.    Ground tuna and red chilli pepper.</string>
+		<key>imageName</key>
+		<string>Spicy-Tuna-Roll-Western-Sushi-205.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string> Gyu Nigiri</string>
+		<key>description</key>
+		<string>Beef — often expensive beef such as hida gyu or kobe gyu</string>
+		<key>imageName</key>
+		<string>gyu-Nigiri-sushi-205.jpg</string>
+	</dict>
+</array>
+</plist>
