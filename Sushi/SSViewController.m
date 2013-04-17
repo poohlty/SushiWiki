@@ -68,9 +68,12 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"pushSushiDetail"]) {
+        //get indexPath from selected sushi
         NSArray *indexPaths = [self.collectionView indexPathsForSelectedItems];
-        SSDetailViewController *destViewController = segue.destinationViewController;
         NSIndexPath *indexPath = [indexPaths objectAtIndex:0];
+        
+        //initialize the detail view controller and push it
+        SSDetailViewController *destViewController = segue.destinationViewController;
         destViewController.sushi = self.sushi[indexPath.row];
         [self.collectionView deselectItemAtIndexPath:indexPath animated:NO];
     }

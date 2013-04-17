@@ -31,6 +31,7 @@
                                              selector:@selector(loadSushi)
                                                  name:@"favSushiChanged"
                                                object:nil];
+    
     placeholderImage = [[UIImageView alloc] init];
     placeholderImage.frame = CGRectMake(60, 153, 200, 150);
     placeholderImage.image = [UIImage imageNamed:@"placeholder"];

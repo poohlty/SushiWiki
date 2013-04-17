@@ -120,9 +120,6 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVf-6a-RyH">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="29" id="1Lb-WU-ZPo"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <size key="titleShadowOffset" width="6" height="6"/>
                                 <state key="normal" image="google-icon.png">
@@ -165,7 +162,6 @@
                             <constraint firstItem="QUi-ef-zEA" firstAttribute="top" secondItem="soo-LP-CKe" secondAttribute="top" constant="235" type="user" id="LLO-KN-oFf"/>
                             <constraint firstItem="U3O-5c-T6O" firstAttribute="centerX" secondItem="soo-LP-CKe" secondAttribute="centerX" type="default" id="Or7-fh-CUR"/>
                             <constraint firstItem="NVf-6a-RyH" firstAttribute="trailing" secondItem="Ek5-yC-LtP" secondAttribute="trailing" type="default" id="WLb-Uf-hRx"/>
-                            <constraint firstItem="NVf-6a-RyH" firstAttribute="bottom" secondItem="Pal-Nf-8nK" secondAttribute="bottom" type="default" id="ZfD-ZZ-1hO"/>
                             <constraint firstItem="Pal-Nf-8nK" firstAttribute="top" secondItem="soo-LP-CKe" secondAttribute="top" constant="238" type="user" id="cGj-Jm-9eY"/>
                             <constraint firstItem="Ek5-yC-LtP" firstAttribute="top" secondItem="soo-LP-CKe" secondAttribute="top" constant="31" id="dkT-JI-w9W"/>
                             <constraint firstItem="OQh-Vp-UJW" firstAttribute="top" secondItem="soo-LP-CKe" secondAttribute="top" constant="20" symbolic="YES" type="user" id="qsk-Xf-u1F"/>
@@ -239,35 +235,6 @@
             </objects>
             <point key="canvasLocation" x="574" y="1604"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="0hr-Ib-sJd">
-            <objects>
-                <viewController id="OM0-Ld-s0x" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ed7-tp-Hum">
-                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iDh-VF-Rkq">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="DCp-LR-zh9"/>
-                                    <constraint firstAttribute="height" constant="150" id="ax4-U6-XBw"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="iDh-VF-Rkq" firstAttribute="top" secondItem="ed7-tp-Hum" secondAttribute="top" constant="153" id="Bn4-8G-cXm"/>
-                            <constraint firstItem="iDh-VF-Rkq" firstAttribute="centerX" secondItem="ed7-tp-Hum" secondAttribute="centerX" type="default" id="m56-ko-xVa"/>
-                        </constraints>
-                    </view>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0EI-cJ-baX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1102" y="1555"/>
-        </scene>
         <!--Navigation Controller - Favourite-->
         <scene sceneID="GOv-Cq-0aa">
             <objects>
@@ -312,7 +279,7 @@
                                                 <constraint firstAttribute="height" constant="105" id="s0l-1E-tUp"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="13" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dU3-AY-IXi">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="13" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="dU3-AY-IXi">
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="nLS-jC-ziI"/>
                                             </constraints>
@@ -355,7 +322,7 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Here Goes an intro about sushi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYH-s1-tsU">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Here goes an intro to sushi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKz-bZ-Tqf">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -363,8 +330,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="EYH-s1-tsU" firstAttribute="centerX" secondItem="JrV-ev-ygK" secondAttribute="centerX" type="default" id="hRY-5a-AIK"/>
-                            <constraint firstItem="EYH-s1-tsU" firstAttribute="centerY" secondItem="JrV-ev-ygK" secondAttribute="centerY" type="default" id="o2e-JT-rwl"/>
+                            <constraint firstItem="UKz-bZ-Tqf" firstAttribute="centerX" secondItem="JrV-ev-ygK" secondAttribute="centerX" type="default" id="UNA-n5-4dF"/>
+                            <constraint firstItem="UKz-bZ-Tqf" firstAttribute="centerY" secondItem="JrV-ev-ygK" secondAttribute="centerY" type="default" id="m58-Hx-6Ix"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Intro" image="info-icon.png" id="DTC-3i-zsh"/>
@@ -433,9 +400,6 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzR-Qz-wCd">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="29" id="MTW-7J-TgY"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <size key="titleShadowOffset" width="6" height="6"/>
                                 <state key="normal" image="google-icon.png">
@@ -478,7 +442,6 @@
                             <constraint firstItem="CzR-Qz-wCd" firstAttribute="top" secondItem="ogw-0M-G62" secondAttribute="top" constant="238" type="user" id="aUc-GZ-Vwa"/>
                             <constraint firstItem="aVU-kM-dtH" firstAttribute="leading" secondItem="ogw-0M-G62" secondAttribute="leading" constant="41" id="iiS-tu-ly5"/>
                             <constraint firstItem="CzR-Qz-wCd" firstAttribute="trailing" secondItem="L3m-6G-Vrj" secondAttribute="trailing" type="default" id="kML-Op-Q0f"/>
-                            <constraint firstItem="CzR-Qz-wCd" firstAttribute="bottom" secondItem="DfT-jM-3Gq" secondAttribute="bottom" type="default" id="oAj-rT-iRj"/>
                             <constraint firstItem="DfT-jM-3Gq" firstAttribute="top" secondItem="ogw-0M-G62" secondAttribute="top" constant="238" type="user" id="p9L-zC-8UP"/>
                             <constraint firstItem="aVU-kM-dtH" firstAttribute="top" secondItem="ogw-0M-G62" secondAttribute="top" constant="235" type="user" id="rXb-nX-E0T"/>
                             <constraint firstAttribute="trailing" secondItem="DfT-jM-3Gq" secondAttribute="trailing" constant="75" id="seh-2C-cFQ"/>
@@ -528,14 +491,54 @@
         </scene>
     </scenes>
     <resources>
-        <image name="about-icon.png" width="16" height="16"/>
-        <image name="empty-star-icon.png" width="16" height="16"/>
-        <image name="google-icon.png" width="16" height="16"/>
-        <image name="info-icon.png" width="16" height="16"/>
-        <image name="star-icon.png" width="16" height="16"/>
-        <image name="sushi-icon.png" width="16" height="16"/>
+        <image name="about-icon.png" width="30" height="30"/>
+        <image name="empty-star-icon.png" width="29" height="29"/>
+        <image name="google-icon.png" width="29" height="29"/>
+        <image name="info-icon.png" width="30" height="30"/>
+        <image name="star-icon.png" width="30" height="30"/>
+        <image name="sushi-icon.png" width="30" height="30"/>
         <image name="wide-photo-frame@2x.png" width="594" height="399"/>
     </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SSDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSDetailViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="starTapped:"/>
+                <relationship kind="outlet" name="description" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="enameLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="jnameLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="star" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="sushiImage" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="SSFavViewController" superclassName="UICollectionViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSFavViewController.h"/>
+        </class>
+        <class className="SSViewController" superclassName="UICollectionViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSViewController.h"/>
+        </class>
+        <class className="SSWebViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSWebViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+        <class className="UICollectionReusableView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionReusableView.h"/>
+        </class>
+        <class className="UICollectionViewCell" superclassName="UICollectionReusableView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewCell.h"/>
+        </class>
+        <class className="UICollectionViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewController.h"/>
+        </class>
+        <class className="UICollectionViewFlowLayout" superclassName="UICollectionViewLayout">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewFlowLayout.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
