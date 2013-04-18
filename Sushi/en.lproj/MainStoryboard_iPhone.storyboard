@@ -251,7 +251,7 @@
             </objects>
             <point key="canvasLocation" x="57" y="890"/>
         </scene>
-        <!--Fav View Controller - Favourite-->
+        <!--Fav View Controller-->
         <scene sceneID="GTs-M6-Kfn">
             <objects>
                 <collectionViewController autoresizesArchivedViewToFullSize="NO" id="D74-hU-QEq" customClass="SSFavViewController" sceneMemberID="viewController">
@@ -307,7 +307,6 @@
                             <outlet property="delegate" destination="D74-hU-QEq" id="Q9r-eV-v5R"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Favourite" id="szB-Ka-aml"/>
                     <navigationItem key="navigationItem" id="fpg-pf-xGX"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tIn-aZ-Tlb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -359,7 +358,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hs0-4n-oBd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-506" y="890"/>
+            <point key="canvasLocation" x="-482" y="890"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="ay1-L7-TKK">
