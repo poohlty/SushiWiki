@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB266E8B171F21C600E01197 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AB266E8A171F21C600E01197 /* Default.png */; };
 		AB266E8D171F23B200E01197 /* sushi-app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB266E8C171F23B200E01197 /* sushi-app-icon.png */; };
 		AB266E94171F23E500E01197 /* sushi-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB266E8E171F23E500E01197 /* sushi-icon.png */; };
 		AB266E95171F23E500E01197 /* info-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB266E8F171F23E500E01197 /* info-icon.png */; };
@@ -16,6 +15,7 @@
 		AB266E98171F23E500E01197 /* empty-star-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB266E92171F23E500E01197 /* empty-star-icon.png */; };
 		AB266E99171F23E500E01197 /* about-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB266E93171F23E500E01197 /* about-icon.png */; };
 		AB266E9B171F244000E01197 /* star-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB266E9A171F244000E01197 /* star-icon.png */; };
+		AB624039172061B300B87EDB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB624037172061A100B87EDB /* SystemConfiguration.framework */; };
 		AB70619F17027E0C001CFD9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB70619E17027E0C001CFD9F /* UIKit.framework */; };
 		AB7061A117027E0C001CFD9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7061A017027E0C001CFD9F /* Foundation.framework */; };
 		AB7061A317027E0C001CFD9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7061A217027E0C001CFD9F /* CoreGraphics.framework */; };
@@ -28,8 +28,6 @@
 		AB7061B817027E0C001CFD9F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7061B617027E0C001CFD9F /* MainStoryboard_iPhone.storyboard */; };
 		AB7061BB17027E0C001CFD9F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7061B917027E0C001CFD9F /* MainStoryboard_iPad.storyboard */; };
 		AB7061BE17027E0C001CFD9F /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7061BD17027E0C001CFD9F /* SSViewController.m */; };
-		AB736C59171F1D1800BBDE9B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB736C58171F1D1800BBDE9B /* Default@2x.png */; };
-		AB736C5B171F201A00BBDE9B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB736C5A171F201A00BBDE9B /* Default-568h@2x.png */; };
 		ABBC80D2170B45B800572304 /* 37x-Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBC80D1170B45B800572304 /* 37x-Checkmark@2x.png */; };
 		ABBC80D3170B461C00572304 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBC80D0170B44A400572304 /* MBProgressHUD.m */; };
 		ABBC80DE170B4C7500572304 /* empty-star-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBC80DB170B4C7500572304 /* empty-star-icon@2x.png */; };
@@ -167,6 +165,7 @@
 		AB266E92171F23E500E01197 /* empty-star-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty-star-icon.png"; sourceTree = "<group>"; };
 		AB266E93171F23E500E01197 /* about-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-icon.png"; sourceTree = "<group>"; };
 		AB266E9A171F244000E01197 /* star-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-icon.png"; sourceTree = "<group>"; };
+		AB624037172061A100B87EDB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AB70619B17027E0C001CFD9F /* Sushi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sushi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB70619E17027E0C001CFD9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB7061A017027E0C001CFD9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -323,6 +322,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB624039172061B300B87EDB /* SystemConfiguration.framework in Frameworks */,
 				AB70619F17027E0C001CFD9F /* UIKit.framework in Frameworks */,
 				AB7061A117027E0C001CFD9F /* Foundation.framework in Frameworks */,
 				AB7061A317027E0C001CFD9F /* CoreGraphics.framework in Frameworks */,
@@ -368,6 +368,7 @@
 		AB70619D17027E0C001CFD9F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB624037172061A100B87EDB /* SystemConfiguration.framework */,
 				AB70619E17027E0C001CFD9F /* UIKit.framework */,
 				AB7061A017027E0C001CFD9F /* Foundation.framework */,
 				AB7061A217027E0C001CFD9F /* CoreGraphics.framework */,
@@ -746,9 +747,6 @@
 				ABBC80E4170BEFC500572304 /* navigationbar.png in Resources */,
 				ABBC80E6170BF08600572304 /* tabbar.png in Resources */,
 				ABBC80E8170CA22D00572304 /* placeholder.png in Resources */,
-				AB736C59171F1D1800BBDE9B /* Default@2x.png in Resources */,
-				AB736C5B171F201A00BBDE9B /* Default-568h@2x.png in Resources */,
-				AB266E8B171F21C600E01197 /* Default.png in Resources */,
 				AB266E8D171F23B200E01197 /* sushi-app-icon.png in Resources */,
 				AB266E94171F23E500E01197 /* sushi-icon.png in Resources */,
 				AB266E95171F23E500E01197 /* info-icon.png in Resources */,

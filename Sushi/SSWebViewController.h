@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SSWebViewController : UIViewController
+@interface SSWebViewController : UIViewController <UIAlertViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
-
 @property (weak, nonatomic) NSString *sushiName;
+
+- (BOOL)hasConnectivity;
 
 @end

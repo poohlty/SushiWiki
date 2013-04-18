@@ -12,12 +12,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-
+    //Customizing the Tabbar and Navigation bar appearance
     [[UITabBar appearance] setSelectedImageTintColor:[UIColor lightGrayColor]];
     [[UITabBar appearance] setTintColor:[UIColor lightGrayColor]];
-    [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:(95.0/255.0) green:(64.0/255.0) blue:(34.0/255.0) alpha:1.0]];
     [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"tabbar.png"]];
+    [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:(95.0/255.0) green:(64.0/255.0) blue:(34.0/255.0) alpha:1.0]];
     [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navigationbar.png"] forBarMetrics:UIBarMetricsDefault];
     
     return YES;
